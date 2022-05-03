@@ -69,12 +69,9 @@ Imagen de fondo
 https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg
 Imágenes de redes sociales
 
-https://raw.githubusercontent.com/WebDevSimplified/Introduction-to-Web-
-Development/master/Introduction%20to%20CSS/Lesson%203/Images/Youtube%20Logo.png
+https://raw.githubusercontent.com/WebDevSimplified/Introduction-to-Web-Development/master/Introduction%20to%20CSS/Lesson%203/Images/Youtube%20Logo.png
 
-https://raw.githubusercontent.com/WebDevSimplified/Introduction-to-Web-
-Development/master/Introduction%20to%20CSS/Lesson%203/Images/Spotify%20Logo.png
+https://raw.githubusercontent.com/WebDevSimplified/Introduction-to-Web-Development/master/Introduction%20to%20CSS/Lesson%203/Images/Spotify%20Logo.png
 
-https://raw.githubusercontent.com/WebDevSimplified/Introduction-to-Web-
-Development/master/Introduction%20to%20CSS/Lesson%203/Images/Facebook%20Logo.png
+https://raw.githubusercontent.com/WebDevSimplified/Introduction-to-Web-Development/master/Introduction%20to%20CSS/Lesson%203/Images/Facebook%20Logo.png
 
