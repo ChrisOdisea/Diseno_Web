@@ -175,7 +175,8 @@ El borde derecho = 1 píxel
 Realiza la maquetación del siguiente ejemplo de página: (se aplica la rúbrica de la
 maquetación en código html y css, valor 36)
 
-![image](https://user-images.githubusercontent.com/91554777/166742177-b3cc2bfc-7768-42e4-b4f0-dcc2a1473935.png)
+![maquetaCR](https://user-images.githubusercontent.com/101351242/167007562-8c0a3831-fc0c-4a08-a81a-752935b4662c.png)
+
 
 ● Este ejercicio lo deberás realizar con las etiquetas de HTML5, haciendo uso de los elementos semánticos de HTML5.
 
@@ -201,11 +202,176 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
 
           INGRESA AQUI EL CÓDIGO HTML
           
-          
+                                                            <!docktype html>
+                    <html>
+
+                              <body>
+
+                                        <head>
+
+                                                  <link rel="stylesheet" href="estilofinal.css">
+                                                  <link rel="preconnect" href="https://fonts.googleapis.com">
+                                                  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                                                  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+                                        </head>
+
+
+
+                                        <header>
+
+                                                  <div>
+
+                                                    <a href="@"><img src="logo.png" width="300px"></a>
+
+                                                  </div>
+                    <hr>
+                                                  <nav>
+
+                                                            <ul>
+                                                                <a href="@"><li>Residentes</li></a>
+                                                              <a href="@"><li>Negocios</li></a>
+                                                                <a href="@"><li>Visitantes</li></a>
+                                                              <a href="@"><li>Gobierno</li></a>
+                                                            </ul>
+
+                                                  </nav>
+
+                                        </header>
+
+                                        <main>
+                                                  <article>
+
+                                                            <div>
+
+                                                                      <div class="si">  	<h1> 	<span> > </span> APRENDE A PROGRAMAR    </h1>	</div>
+                                                                      <div class="no">   	<h1> 	EN LAS <span> ESCUELAS </span>		</h1>	</div>
+                                                                      <div class="aja"> 	<h1> 	<span> DECODIGO </span>                 </h1>	</div>
+                                                                      <div class="ok">   	<h1>     DE LA CDMX 			        </h1>	</div>
+
+                                                            </div>
+
+                                                  </article>
+
+                                        </main>
+
+
+                                        <footer>
+
+                                                  <h2> ¿Quién se puede inscribir? </h2><br>
+
+                                                   Cualquier persona que quiera aprender a programar código y cuente con 4-8 horas disponibles a la semana. 
+                                                            <p>*Menores de edad deberan entrar a las inslaciones acompañados de un adulto.</p>
+
+                                        </footer>
+
+
+
+                              </body>
+                    </html>
+
           
           
           INGRESA AQUI EL CSS
           
-          
-          
+                               /*cuerpo*/
+
+                    *{
+
+                              margin:0;
+                              padding:0;
+                    }
+                     body{
+                              font-family: 'Ubuntu', sans-serif;
+                    }
+
+
+                                                                            /*header*/
+
+
+                     img{
+                              padding-left:2em;
+                              padding-top:1em;
+                    }
+
+                     ul{
+                              display: flex;
+                              list-style-type:none;
+                              text-decoration:none;
+
+                    }
+                     li{
+                              padding-left: 3em;
+                    }
+                     nav{
+                              align-items: flex-end;
+                              justify-content: end;
+                              display: flex;
+                              padding-right: 3em;
+                              padding:1.5em;
+                    }
+                     a{
+                         text-decoration:none ;
+                         color:green;
+                    }
+
+
+                                                                                /*main*/
+
+                     main{
+                              padding:5%;
+                              background: url("hero.jpg");
+                              background-size: center;
+                              background-size: cover;
+                              background-repeat:no-repeat;
+                    }
+                    .si{
+
+                    }
+                    .no{
+                              padding-left:4.7em;
+                    }
+                     .aja{
+                              padding-left:9.1em;
+                    }	
+
+
+                     .ok{
+                              padding-left:9.1em;
+                    }
+
+                     div{
+
+                              font-size: 1.6em;
+                              color:white;
+                              fond-spacing: 10px;
+                              font-weight: bold;
+                    }
+                    span{
+                              font-weight: bold;
+                              font-size: 1.3em;
+
+                    }
+                                                                                /*footer*/
+
+                     footer{
+                              padding:1.5em;
+                              text-align:center;
+                              font-size: 1em;
+                              font-weight: bold;
+
+
+                    }
+
+                     h2{	
+                              color:#926C15
+
+                    }
+                    footer p{
+                              color:gray;
+                    {
+
+
+
  Ingresa el link a tu página del proyecto final
+ 
+           https://chrisodisea.github.io/Ejercicio_final/
